@@ -1,0 +1,58 @@
+.subscribe {
+    grid-area: subscribe;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: [input] 5fr [button] 2fr;
+}
+  
+.subscribe-email {
+  border-radius: 4px;
+  height: 25px;
+  padding-left: 10px;
+  outline: none;
+  font-size: 12px;
+  transition: all 0.2s ease-in;
+}
+
+.subscribe-button {
+  height: 25px;
+  border: 2px solid var(--red);
+  border-radius: 2px;
+  font-size: 12px;
+  font-weight: bolder;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+  background-color: #f44336;
+}
+  
+.subscribe-button:hover,
+.subscribe-button:focus {
+  outline: none;
+  filter: brightness(85%);
+}
+
+@media (max-width: 700px) {
+  .subscribe {
+        grid-template-areas:
+        "input"
+        "button";
+    }
+  .subscribe-button,
+  .subscribe-email {
+        width: 250px;
+        grid-column: 1 / -1;
+  }
+}
+
+.success-message {
+  color: red;
+}
+
+.mint-msg {
+  color: rgb(255, 0, 0);
+  /* text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red; */
+  font-family: 'Italianno';
+  font-size: 50px;
+  background-color: #000000;
+  text-align: center;
+}

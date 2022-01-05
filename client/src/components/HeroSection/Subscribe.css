@@ -1,0 +1,94 @@
+.subscribe {
+    grid-area: subscribe;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: [input] 5fr [button] 2fr;
+}
+  
+.subscribe-email {
+  border-radius: 4px;
+  height: 25px;
+  padding-left: 10px;
+  outline: none;
+  font-size: 12px;
+  transition: all 0.2s ease-in;
+}
+
+.subscribe-button {
+  color: rgb(0, 0, 0);
+  /* padding-left: 50px; */
+  /* padding-right: 50px; */
+  /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+  /* font-family: 'Italianno'; */
+  font-size: 50px;
+  /* background-color: #000000; */
+  text-align: center;
+}
+  
+.subscribe-button:hover,
+.subscribe-button:focus {
+  outline: none;
+  filter: brightness(85%);
+}
+
+@media (max-width: 700px) {
+  .subscribe {
+        grid-template-areas:
+        "input"
+        "button";
+    }
+  .subscribe-button,
+  .subscribe-email {
+        width: 250px;
+        grid-column: 1 / -1;
+  }
+}
+
+.success-message {
+  color: white;
+  /* text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red; */
+}
+
+.success-m {
+  color: rgb(255, 0, 0);
+  /* padding-left: 50px; */
+  /* padding-right: 50px; */
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-family: 'Italianno';
+  font-size: 22px;
+  /* background-color: #000000; */
+  text-align: center;
+}
+
+.goombah-h {
+  color: rgb(255, 0, 0);
+  /* text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red; */
+  font-family: 'Italianno';
+  font-size: 60px;
+  background-color: #000000;
+  text-align: center;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.goombah-p {
+  color: rgb(255, 0, 0);
+  /* padding-left: 50px; */
+  /* padding-right: 50px; */
+  /* text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red; */
+  font-family: 'Italianno';
+  font-size: 22px;
+  background-color: #000000;
+  text-align: center;
+}
+
+.goombah-q {
+  color: rgb(255, 0, 0);
+  /* text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red; */
+  font-family: 'Italianno';
+  font-size: 60px;
+  background-color: #000000;
+  text-align: center;
+  padding-left: 14px;
+  padding-right: 14px;
+}
