@@ -1,7 +1,9 @@
 import React from 'react';
 import {
-  FaDiscord
+  FaDiscord,
+  FaYoutube
 } from 'react-icons/fa';
+
 import { animateScroll as scroll } from 'react-scroll';
 import {
   FooterContainer,
@@ -63,6 +65,9 @@ const Footer = () => {
               <FooterLinkTitle>Social Media</FooterLinkTitle>
               <SocialIconLink href='https://discord.gg/5rkKHeKAvj' target='_blank' aria-label='Discord'>
                 <FaDiscord />
+              </SocialIconLink>
+              <SocialIconLink href='https://www.youtube.com/channel/UCMPZ67AoF7NxfP7ozj44xNg/featured' target='_blank' aria-label='Youtube'>
+                <FaYoutube />
               </SocialIconLink>
               {/* <FooterLink to='/'>Twitter</FooterLink> */}
               {/* <FooterLink href='https://discord.com/invite/TzJQAtmj'>Discord</FooterLink> */}
