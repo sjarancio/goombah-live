@@ -27,9 +27,9 @@ app.get("/api/memberAdd", (req, res) => {
         })
 });
 
-// app.get('*', (req, res) => {
-//     res.sendFile(path.join(__dirname + '/client/build/index.html'))
-// })
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname + '/client/build/index.html'))
+})
 
 if (process.env.NODE_ENV === 'production') {
     // Serve any static files
@@ -40,7 +40,7 @@ if (process.env.NODE_ENV === 'production') {
     });
 }
 
-const whitelist = ['http://localhost:3000', 'http://localhost:9001']
+const whitelist = ['http://localhost:3000', 'http://localhost:9001', 'https://git.heroku.com/dry-inlet-08880.git']
 const corsOptions = {
   origin: function (origin, callback) {
     console.log("** Origin of request " + origin)
