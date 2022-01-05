@@ -7,8 +7,8 @@ import {
   HeroBg,
   VideoBg,
   HeroContent,
-  HeroP,
-  HeroH1
+  // HeroP,
+  // HeroH1
 } from './HeroElements';
 
 function HeroSection() {

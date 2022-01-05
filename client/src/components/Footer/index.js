@@ -12,7 +12,7 @@ import {
   FooterLinksWrapper,
   FooterLinkItems,
   FooterLinkTitle,
-  FooterLink,
+  // FooterLink,
   SocialMedia,
   SocialMediaWrap,
   SocialLogo,

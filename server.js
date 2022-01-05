@@ -3,8 +3,8 @@ const path = require('path');
 const Mailchimp = require('mailchimp-api-v3');
 require('dotenv').config( { path: __dirname + "/variables.env" } );
 
-const mc_api_key = process.env.MAILCHIMP_API_KEY;
-const list_id = process.env.LIST_ID;
+const mc_api_key = "3258c23e3593c26e2b543671dacac9c6-us5"
+const list_id = "49bbfaa965"
 
 
 const app = express();

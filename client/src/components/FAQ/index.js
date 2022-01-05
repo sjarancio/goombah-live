@@ -14,7 +14,7 @@ import {
   HeroBg,
   VideoBg,
   HeroContent,
-  HeroH1
+  // HeroH1
 } from './FAQElements';
 
 function FAQ() {

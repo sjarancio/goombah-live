@@ -7,7 +7,7 @@ import {
   HeroBg,
   VideoBg,
   HeroContent,
-  HeroH1
+  // HeroH1
 } from './PortalElements';
 
 function Portal() {
