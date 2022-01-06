@@ -10,7 +10,7 @@ import Foundation from '../components/FoundationSection';
 import Merch from '../components/Merch';
 import Family from '../components/FamilySection';
 import FAQ from '../components/FAQ';
-import Terms from '../components/TermsSection/Terms';
+// import Terms from '../components/TermsSection/Terms';
 
 function Home() {
   const [isOpen, setIsOpen] = useState(false);

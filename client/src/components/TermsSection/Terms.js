@@ -3,10 +3,10 @@ import "./Terms.css";
 
 // import Video from '../../videos/mint.mp4';
 import {
-  HeroContainer,
-  HeroBg,
-  VideoBg,
-  HeroContent,
+  // HeroContainer,
+  // HeroBg,
+  // VideoBg,
+  // HeroContent,
   FooterLinkItems,
   FooterLink,
   FooterContainer,
@@ -20,9 +20,9 @@ import {
 
 function Terms() {
 
-  const onClick = (e) => {
-    // e.preventDefault;
-  }
+  // const onClick = (e) => {
+  //   e.preventDefault;
+  // }
 
   return (
     <div id='terms'>
@@ -46,7 +46,7 @@ function Terms() {
         Subject to your continued compliance with these Terms and Conditions, FAL Consulting, LLC grants you a worldwide, royalty-free license to use, copy, and display the purchased Art (Full Goombah), along with any extensions that you choose to create or use, solely for the following purposes: (i) for your own personal, non-commercial use; (ii) as part of a marketplace that permits the purchase and sale of your Goombah NFT, provided that the marketplace cryptographically verifies each Goombah owner’s rights to display the Art for their Goombah to ensure that only the actual owner can display the Art; or (iii) as part of a third-party website or application that permits the inclusion, involvement, or participation of your Goombah, provided that the website/application cryptographically verifies each Goombah owner’s rights to display the Art for their Goombah to ensure that only the actual owner can display the Art, and provided that the Art is no longer visible once the owner of the Goombah leaves the website/application.
         <br/><br/>
         <b>b. Commercial Use</b><br/>
-        Subject to your continued compliance with these Terms and Conditions, Fal Consulting, LLC grants you an unlimited, worldwide license to use, copy, and display the purchased Art for the purpose of creating derivative works based upon the NFT (“Commercial Use”). Examples of such Commercial Use would be the use of the Art to produce and sell merchandise products (T-Shirts, stickers, etc.), displaying copies of the Art, using the Art for marketing/advertisement purposes, etc. For the sake of clarity, nothing in this Section will be deemed to restrict you from (i) owning or operating a marketplace that permits the use and sale of Goombahs generally, provided that the marketplace cryptographically verifies each Goombah owner’s rights to display the Art for their Goombah to ensure that only the actual owner can display the Art; (ii) owning or operating a third party website or application that permits the inclusion, involvement, or participation of Goombahs generally, provided that the third party website or application cryptographically verified each Goombah owner’s rights to display the Art for theirGoombah to ensure that only the actual owner can display the Art, and provided that the Art is no longer visible once the owner of the Purchased Goombah leaves the website/application; or (iii) earning revenue up to $10,000 from any of the foregoing.
+        Subject to your continued compliance with these Terms and Conditions, FAL Consulting, LLC grants you an unlimited, worldwide license to use, copy, and display the purchased Art for the purpose of creating derivative works based upon the NFT (“Commercial Use”). Examples of such Commercial Use would be the use of the Art to produce and sell merchandise products (T-Shirts, stickers, etc.), displaying copies of the Art, using the Art for marketing/advertisement purposes, etc. For the sake of clarity, nothing in this Section will be deemed to restrict you from (i) owning or operating a marketplace that permits the use and sale of Goombahs generally, provided that the marketplace cryptographically verifies each Goombah owner’s rights to display the Art for their Goombah to ensure that only the actual owner can display the Art; (ii) owning or operating a third party website or application that permits the inclusion, involvement, or participation of Goombahs generally, provided that the third party website or application cryptographically verified each Goombah owner’s rights to display the Art for theirGoombah to ensure that only the actual owner can display the Art, and provided that the Art is no longer visible once the owner of the Purchased Goombah leaves the website/application; or (iii) earning revenue up to $10,000 from any of the foregoing.
         </p>
         <br/>
         <h3 class ="title">4. Specifics on Commercial and Derivative Rights</h3><br/>
