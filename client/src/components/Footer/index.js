@@ -1,7 +1,10 @@
 import React from 'react';
 import {
   FaDiscord,
-  FaYoutube
+  FaYoutube,
+  FaTwitter,
+  FaInstagram,
+  FaFacebook
 } from 'react-icons/fa';
 
 import { animateScroll as scroll } from 'react-scroll';
@@ -12,7 +15,7 @@ import {
   FooterLinksWrapper,
   FooterLinkItems,
   FooterLinkTitle,
-  // FooterLink,
+  FooterLink,
   SocialMedia,
   SocialMediaWrap,
   SocialLogo,
@@ -31,14 +34,14 @@ const Footer = () => {
       <FooterWrap>
         <FooterLinksContainer>
           <FooterLinksWrapper>
-            {/* <FooterLinkItems>
+            <FooterLinkItems>
               <FooterLinkTitle>About Us</FooterLinkTitle>
-              <FooterLink to='/sign-up'>How it works</FooterLink>
-              <FooterLink to='/'>Testimonials</FooterLink>
-              <FooterLink to='/'>Careers</FooterLink>
-              <FooterLink to='/'>Investors</FooterLink>
-              <FooterLink to='/'>Terms of Service</FooterLink>
-            </FooterLinkItems> */}
+              {/* <FooterLink to='/sign-up'>How it works</FooterLink> */}
+              {/* <FooterLink to='/'>Testimonials</FooterLink> */}
+              {/* <FooterLink to='/'>Careers</FooterLink> */}
+              {/* <FooterLink to='/'>Investors</FooterLink> */}
+              <FooterLink to='/terms' >Terms of Service</FooterLink>
+            </FooterLinkItems>
             {/* <FooterLinkItems>
               <FooterLinkTitle>Contact Us</FooterLinkTitle>
               <FooterLink to='/'>Contact</FooterLink>
@@ -68,6 +71,15 @@ const Footer = () => {
               </SocialIconLink>
               <SocialIconLink href='https://www.youtube.com/channel/UCMPZ67AoF7NxfP7ozj44xNg/featured' target='_blank' aria-label='Youtube'>
                 <FaYoutube />
+              </SocialIconLink>
+              <SocialIconLink href='https://twitter.com/TheGoombahs' target='_blank' aria-label='Twitter'>
+                <FaTwitter />
+              </SocialIconLink>
+              <SocialIconLink href='https://instagram.com/thegoombahs?utm_medium=copy_link' target='_blank' aria-label='Instagram'>
+                <FaInstagram />
+              </SocialIconLink>
+              <SocialIconLink href='https://www.facebook.com/thegoombahs' target='_blank' aria-label='Facebook'>
+                <FaFacebook />
               </SocialIconLink>
               {/* <FooterLink to='/'>Twitter</FooterLink> */}
               {/* <FooterLink href='https://discord.com/invite/TzJQAtmj'>Discord</FooterLink> */}
